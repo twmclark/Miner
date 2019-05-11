@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <MonoGameContentReference Include="**\*.mgcb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.4" />
+    <PackageReference Include="MonoGame.Extended" Version="3.6.0-alpha0968" />
+    <PackageReference Include="MonoGame.Extended.Animations" Version="3.6.0-alpha0968" />
+    <PackageReference Include="MonoGame.Extended.Content.Pipeline" Version="3.6.0-alpha0968" />
+    <PackageReference Include="MonoGame.Extended.Entities" Version="3.6.0-alpha0968" />
+    <PackageReference Include="MonoGame.Extended.Graphics" Version="3.6.0-alpha0968" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.7.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
